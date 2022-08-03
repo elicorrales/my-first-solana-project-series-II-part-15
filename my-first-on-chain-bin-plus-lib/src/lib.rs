@@ -1,10 +1,10 @@
 use solana_program::{
+    account_info::AccountInfo,
     entrypoint,
     entrypoint::ProgramResult,
-    pubkey::Pubkey,
-    account_info::AccountInfo,
-    stake_history::Epoch,
     msg
+    pubkey::Pubkey,
+    stake_history::Epoch,
 };
 use std::str;
 
